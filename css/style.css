@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,300;1,300;1,700&display=swap');
+.parent {
+    display: grid;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 0.5rem;
+    color: #007F61;
+}
+
+.heading::before,
+.heading::after {
+    content: "";
+    height: 2px;
+    background-color: #C8C8C8;
+    display: block;
+}
+.top {
+    display: flex;
+    gap: 130px;
+    border-radius: 3.6152124404907227px;
+    border: 1px grey solid;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.top:hover {
+    border: 1px #007F61 solid;
+}
+.top_child {
+    display: flex;
+    gap: 15px;
+}
+.top_second_child {
+    margin-top: 20px;
+}
+.middle {
+    padding-left: 25px;
+    padding-right: 10px;
+    border-radius: 3.6152124404907227px;
+    border: 1px grey solid;
+}
+
+.middle:hover {
+    border: 1px #007F61 solid;
+}
+
+.middle_child {
+    display: flex;
+    gap: 110px;
+}
+
+.middle_child_inner {
+    display: flex;
+    gap: 15px;
+}
+
+.most_popular {
+    color: #007F61;
+    font-weight: bold;
+    position: relative;
+    top: 12px;
+}
+
+.discount {
+    position: relative;
+    top: 5px;
+}
+
+table {
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+select {
+    padding: 5px;
+}
+
+
+.bottom {
+    display: flex;
+    gap: 130px;
+    border-radius: 3.6152124404907227px;
+    border: 1px grey solid;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.bottom:hover {
+    border: 1px #007F61 solid;
+}
+
+.bottom_child {
+    display: flex;
+    gap: 15px;
+
+}
+
+.bottom_second_child {
+    margin-top: 20px;
+}
+
+.free_container {
+    border: 0.65px solid #C8C8C8;
+    display: flex;
+    gap: 62px;
+    height: 60px;
+    border-radius: 3.6152124404907227px;
+}
+.free_container span {
+    margin-top: 20px;
+}
+.free_para {
+    color: #007F61;
+}
+.addtocart {
+    background: #007F61;
+    color: #FFFFFF;
+    height: 48px;
+    top: 130px;
+    left: -41px;
+    border-radius: 4px 4px 4px 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.addcart_btn {
+    border: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-top: 12px;
+
+
+}
+
+.addtocart i {
+    position: relative;
+    top: 38px;
+
+    color: black;
+    font-size: 14px;
+}
